@@ -37,7 +37,7 @@ type PropsType = {
 
 
 const routes = [
-    { key: "townInfo", title: "Town Info" }//,
+    { key: "townInfo", title: "Each town handles trash bags differently. Search for your town here." }
     //{ key: "bagTagger", title: "Bag Tagger" }
 ];
 

@@ -9,7 +9,6 @@ const localStyles = {
     searchBar: {
         margin: 10,
         padding: 0,
-        marginBottom: 2,
         height: 45
     },
     searchTerm: {
@@ -37,7 +36,8 @@ type PropsType = {
 export const SearchBar = ({ help, userLocation, searchTerm = "", search }: PropsType): React$Element<View> => (
     <View style={ styles.searchBar }>
         <View style={ { flex: 1, flexDirection: "row", alignItems: "flex-start", justifyContent: "center" } }>
-            { Boolean(help) && (
+            { // Note: the lightbox is nice, but it does not close on android. Find a work-around before implementing.
+                Boolean(help) && (
                 <Lightbox
                     renderHeader={ close => (
                         <Button style={ {
