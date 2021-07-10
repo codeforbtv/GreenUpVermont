@@ -8,8 +8,9 @@ This repository contains the source code for the Green Up App, a mobile app for 
 
 # How to Help
 
-* For developers, see [CONTRIBUTING.md](./CONTRIBUTING.md)
+* For developers, see [README_CONTRIBUTING.md](./README_CONTRIBUTING.md)
 * For testers, see [Our Testing Wiki](https://github.com/codeforbtv/green-up-app/wiki/Testing-Protocol)
+* For analystis/reporting, see [README_REPORTING.md](./README_REPORTING.md)
 
 # Try it now!
 Every time a commit is pushed to master we use Circle CI to test the code and – if all goes well – deploy the most recent updates to our testing apps.  This is ideal for testing & QA, but also great for just experimenting with the new app before it reaches stores.
